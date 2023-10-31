@@ -5,7 +5,7 @@ from excel_functions import change_text_border
 from excel_functions import change_headers_text
 from excel_functions import change_normal_text
 from excel_functions import center_text
-excel_file = r"C:\Users\STAR\Desktop\la munca\_Scraping rentalcars.ro.xlsx"
+excel_file = r"your/excel/location.xlsx"
 wb = openpyxl.load_workbook(excel_file)
 
 
